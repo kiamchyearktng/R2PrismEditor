@@ -1,0 +1,4 @@
+﻿Useful search strings
+
+PrismStoneInstanceData
+"ObjectPath": "/Game/Events/Paragon/PrismStone/UniquePrisms/Prism

@@ -1,0 +1,1181 @@
+{
+  "$type": "lib.remnant2.saves.Model.UObject, lib.remnant2.saves",
+  "WasLoadedByte": 0,
+  "ObjectPath": "/Script/Remnant.PrismStoneInstanceData",
+  "LoadedData": {
+    "$type": "lib.remnant2.saves.Model.Memory.UObjectLoadedData, lib.remnant2.saves",
+    "Name": {
+      "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+      "Index": 254,
+      "Number": 2147017032,
+      "Name": "PrismStoneInstanceData"
+    },
+    "OuterId": 0
+  },
+  "Properties": {
+    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+    "Properties": {
+      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+      "$values": [
+        {
+          "Key": "CurrentSegments",
+          "Value": {
+            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+            "Name": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 198,
+              "Number": null,
+              "Name": "CurrentSegments"
+            },
+            "Index": 0,
+            "Size": 171,
+            "NoRaw": null,
+            "Type": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 1,
+              "Number": null,
+              "Name": "ArrayProperty"
+            },
+            "Value": {
+              "$type": "lib.remnant2.saves.Model.Properties.ArrayStructProperty, lib.remnant2.saves",
+              "Unknown": 0,
+              "OuterElementType": {
+                "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                "Index": 2,
+                "Number": null,
+                "Name": "StructProperty"
+              },
+              "NameIndex": 198,
+              "TypeIndex": 2,
+              "Size": 136,
+              "Index": 0,
+              "Count": 4,
+              "ElementType": {
+                "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                "Index": 199,
+                "Number": null,
+                "Name": "PrismSegment"
+              },
+              "Guid": {
+                "$type": "lib.remnant2.saves.Model.Memory.FGuid, lib.remnant2.saves",
+                "A": 0,
+                "B": 0,
+                "C": 0,
+                "D": 0
+              },
+              "Unknown2": 0,
+              "Items": {
+                "$type": "System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 247,
+                              "Number": null,
+                              "Name": "CastSpeed"
+                            },
+                            "ReadOffset": 164033,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "Level",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 8,
+                              "Number": null,
+                              "Name": "Level"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 10,
+                            "ReadOffset": 164048,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164033,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 220,
+                              "Number": null,
+                              "Name": "HealthPercentStaminaPercent"
+                            },
+                            "ReadOffset": 164067,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "Level",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 8,
+                              "Number": null,
+                              "Name": "Level"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 1,
+                            "ReadOffset": 164082,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164067,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 202,
+                              "Number": null,
+                              "Name": "HealthRegenSkillCooldown"
+                            },
+                            "ReadOffset": 164101,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "Level",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 8,
+                              "Number": null,
+                              "Name": "Level"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 1,
+                            "ReadOffset": 164116,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164101,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 201,
+                              "Number": null,
+                              "Name": "DamageReductionArmorPercent"
+                            },
+                            "ReadOffset": 164135,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "Level",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 8,
+                              "Number": null,
+                              "Name": "Level"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 1,
+                            "ReadOffset": 164150,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164135,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  }
+                ]
+              },
+              "ReadOffset": 163995,
+              "WriteOffset": 0,
+              "ReadLength": 174,
+              "WriteLength": 0
+            },
+            "ReadOffset": 163983,
+            "WriteOffset": 0,
+            "ReadLength": 186,
+            "WriteLength": 0
+          }
+        },
+        {
+          "Key": "CurrentSeed",
+          "Value": {
+            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+            "Name": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 206,
+              "Number": null,
+              "Name": "CurrentSeed"
+            },
+            "Index": 0,
+            "Size": 4,
+            "NoRaw": 0,
+            "Type": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 9,
+              "Number": null,
+              "Name": "IntProperty"
+            },
+            "Value": -2018447051,
+            "ReadOffset": 164169,
+            "WriteOffset": 0,
+            "ReadLength": 17,
+            "WriteLength": 0
+          }
+        },
+        {
+          "Key": "CurrentFeedData",
+          "Value": {
+            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+            "Name": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 207,
+              "Number": null,
+              "Name": "CurrentFeedData"
+            },
+            "Index": 0,
+            "Size": 307,
+            "NoRaw": null,
+            "Type": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 1,
+              "Number": null,
+              "Name": "ArrayProperty"
+            },
+            "Value": {
+              "$type": "lib.remnant2.saves.Model.Properties.ArrayStructProperty, lib.remnant2.saves",
+              "Unknown": 0,
+              "OuterElementType": {
+                "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                "Index": 2,
+                "Number": null,
+                "Name": "StructProperty"
+              },
+              "NameIndex": 207,
+              "TypeIndex": 2,
+              "Size": 272,
+              "Index": 0,
+              "Count": 8,
+              "ElementType": {
+                "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                "Index": 208,
+                "Number": null,
+                "Name": "FeedData"
+              },
+              "Guid": {
+                "$type": "lib.remnant2.saves.Model.Memory.FGuid, lib.remnant2.saves",
+                "A": 0,
+                "B": 0,
+                "C": 0,
+                "D": 0
+              },
+              "Unknown2": 0,
+              "Items": {
+                "$type": "System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 247,
+                              "Number": null,
+                              "Name": "CastSpeed"
+                            },
+                            "ReadOffset": 164236,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "FedLevel",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 210,
+                              "Number": null,
+                              "Name": "FedLevel"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 32,
+                            "ReadOffset": 164251,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164236,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 205,
+                              "Number": null,
+                              "Name": "HealthPercent"
+                            },
+                            "ReadOffset": 164270,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "FedLevel",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 210,
+                              "Number": null,
+                              "Name": "FedLevel"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 32,
+                            "ReadOffset": 164285,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164270,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 222,
+                              "Number": null,
+                              "Name": "StaminaPercent"
+                            },
+                            "ReadOffset": 164304,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "FedLevel",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 210,
+                              "Number": null,
+                              "Name": "FedLevel"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 32,
+                            "ReadOffset": 164319,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164304,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 209,
+                              "Number": null,
+                              "Name": "SkillCooldown"
+                            },
+                            "ReadOffset": 164338,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "FedLevel",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 210,
+                              "Number": null,
+                              "Name": "FedLevel"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 32,
+                            "ReadOffset": 164353,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164338,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 214,
+                              "Number": null,
+                              "Name": "DamageReduction"
+                            },
+                            "ReadOffset": 164372,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "FedLevel",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 210,
+                              "Number": null,
+                              "Name": "FedLevel"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 32,
+                            "ReadOffset": 164387,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164372,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 211,
+                              "Number": null,
+                              "Name": "ArmorPercent"
+                            },
+                            "ReadOffset": 164406,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "FedLevel",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 210,
+                              "Number": null,
+                              "Name": "FedLevel"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 32,
+                            "ReadOffset": 164421,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164406,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 216,
+                              "Number": null,
+                              "Name": "ConsumableSpeed"
+                            },
+                            "ReadOffset": 164440,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "FedLevel",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 210,
+                              "Number": null,
+                              "Name": "FedLevel"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 32,
+                            "ReadOffset": 164455,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164440,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  },
+                  {
+                    "$type": "lib.remnant2.saves.Model.Properties.PropertyBag, lib.remnant2.saves",
+                    "Properties": {
+                      "$type": "System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, System.Private.CoreLib],[lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves]], System.Private.CoreLib]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "Key": "RowName",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 200,
+                              "Number": null,
+                              "Name": "RowName"
+                            },
+                            "Index": 0,
+                            "Size": 2,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 12,
+                              "Number": null,
+                              "Name": "NameProperty"
+                            },
+                            "Value": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 215,
+                              "Number": null,
+                              "Name": "HealthRegen"
+                            },
+                            "ReadOffset": 164474,
+                            "WriteOffset": 0,
+                            "ReadLength": 15,
+                            "WriteLength": 0
+                          }
+                        },
+                        {
+                          "Key": "FedLevel",
+                          "Value": {
+                            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+                            "Name": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 210,
+                              "Number": null,
+                              "Name": "FedLevel"
+                            },
+                            "Index": 0,
+                            "Size": 4,
+                            "NoRaw": 0,
+                            "Type": {
+                              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                              "Index": 9,
+                              "Number": null,
+                              "Name": "IntProperty"
+                            },
+                            "Value": 32,
+                            "ReadOffset": 164489,
+                            "WriteOffset": 0,
+                            "ReadLength": 17,
+                            "WriteLength": 0
+                          }
+                        }
+                      ]
+                    },
+                    "ReadOffset": 164474,
+                    "WriteOffset": 0,
+                    "ReadLength": 34,
+                    "WriteLength": 0
+                  }
+                ]
+              },
+              "ReadOffset": 164198,
+              "WriteOffset": 0,
+              "ReadLength": 310,
+              "WriteLength": 0
+            },
+            "ReadOffset": 164186,
+            "WriteOffset": 0,
+            "ReadLength": 322,
+            "WriteLength": 0
+          }
+        },
+        {
+          "Key": "HasBeenFed",
+          "Value": {
+            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+            "Name": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 218,
+              "Number": null,
+              "Name": "HasBeenFed"
+            },
+            "Index": 0,
+            "Size": 0,
+            "NoRaw": 0,
+            "Type": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 25,
+              "Number": null,
+              "Name": "BoolProperty"
+            },
+            "Value": 1,
+            "ReadOffset": 164508,
+            "WriteOffset": 0,
+            "ReadLength": 14,
+            "WriteLength": 0
+          }
+        },
+        {
+          "Key": "PendingExperience",
+          "Value": {
+            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+            "Name": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 219,
+              "Number": null,
+              "Name": "PendingExperience"
+            },
+            "Index": 0,
+            "Size": 4,
+            "NoRaw": 0,
+            "Type": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 7,
+              "Number": null,
+              "Name": "FloatProperty"
+            },
+            "Value": 254100.0,
+            "ReadOffset": 164522,
+            "WriteOffset": 0,
+            "ReadLength": 17,
+            "WriteLength": 0
+          }
+        },
+        {
+          "Key": "EquippedModItemID",
+          "Value": {
+            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+            "Name": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 187,
+              "Number": null,
+              "Name": "EquippedModItemID"
+            },
+            "Index": 0,
+            "Size": 4,
+            "NoRaw": 0,
+            "Type": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 9,
+              "Number": null,
+              "Name": "IntProperty"
+            },
+            "Value": 892,
+            "ReadOffset": 164539,
+            "WriteOffset": 0,
+            "ReadLength": 17,
+            "WriteLength": 0
+          }
+        },
+        {
+          "Key": "EquippedModSlotID",
+          "Value": {
+            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+            "Name": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 197,
+              "Number": null,
+              "Name": "EquippedModSlotID"
+            },
+            "Index": 0,
+            "Size": 1,
+            "NoRaw": null,
+            "Type": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 188,
+              "Number": null,
+              "Name": "ByteProperty"
+            },
+            "Value": {
+              "$type": "lib.remnant2.saves.Model.Properties.ByteProperty, lib.remnant2.saves",
+              "EnumName": {
+                "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                "Index": 13,
+                "Number": null,
+                "Name": "None"
+              },
+              "Unknown": 0,
+              "EnumByte": 3,
+              "EnumValue": null,
+              "ReadOffset": 164568,
+              "WriteOffset": 0,
+              "ReadLength": 4,
+              "WriteLength": 0
+            },
+            "ReadOffset": 164556,
+            "WriteOffset": 0,
+            "ReadLength": 16,
+            "WriteLength": 0
+          }
+        },
+        {
+          "Key": "Level",
+          "Value": {
+            "$type": "lib.remnant2.saves.Model.Properties.Property, lib.remnant2.saves",
+            "Name": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 8,
+              "Number": null,
+              "Name": "Level"
+            },
+            "Index": 0,
+            "Size": 1,
+            "NoRaw": null,
+            "Type": {
+              "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+              "Index": 188,
+              "Number": null,
+              "Name": "ByteProperty"
+            },
+            "Value": {
+              "$type": "lib.remnant2.saves.Model.Properties.ByteProperty, lib.remnant2.saves",
+              "EnumName": {
+                "$type": "lib.remnant2.saves.Model.Parts.FName, lib.remnant2.saves",
+                "Index": 13,
+                "Number": null,
+                "Name": "None"
+              },
+              "Unknown": 0,
+              "EnumByte": 53,
+              "EnumValue": null,
+              "ReadOffset": 164584,
+              "WriteOffset": 0,
+              "ReadLength": 4,
+              "WriteLength": 0
+            },
+            "ReadOffset": 164572,
+            "WriteOffset": 0,
+            "ReadLength": 16,
+            "WriteLength": 0
+          }
+        }
+      ]
+    },
+    "ReadOffset": 163983,
+    "WriteOffset": 0,
+    "ReadLength": 607,
+    "WriteLength": 0
+  },
+  "ExtraPropertiesData": {
+    "$type": "System.Byte[], System.Private.CoreLib",
+    "$value": "AAAAAA=="
+  },
+  "Components": null,
+  "IsActor": 0,
+  "ObjectIndex": 1754,
+  "ReadOffset": 309180,
+  "WriteOffset": 0,
+  "ReadLength": 54,
+  "WriteLength": 0,
+  "Name": "PrismStoneInstanceData",
+  "Key": null,
+  "KeySelector": null
+}
