@@ -12,6 +12,13 @@ namespace prismeditor.scripts
     public static partial class Scripts
     {
         public const string staticFileName = "profile.sav";
+        private static string? _steamSavePath = null;
+        public static string steamSavePath {
+            get {
+                _steamSavePath ??= Utils.GetSteamSavePath();
+                return _steamSavePath;
+            }
+        }
 
         public static async Task<(int status, SaveFile? sf, Navigator? nav)> LoadSteam(Action<string>? logFunction = null)
         {
@@ -22,7 +29,7 @@ namespace prismeditor.scripts
                 Navigator? navigator = null;
                 await Task.Run(() =>
                 {
-                    string folder = Utils.GetSteamSavePath();
+                    string folder = steamSavePath;
                     string path = Path.Combine(folder, "profile.sav");
                     saveFile = SaveFile.Read(path);
                     navigator = new Navigator(saveFile);
@@ -37,13 +44,61 @@ namespace prismeditor.scripts
             }
         }
 
+        public static async Task<(int status, SaveFile? sf, Navigator? nav)> LoadStatic(Action<string>? logFunction = null)
+        {
+            try
+            {
+                logFunction?.Invoke("Loading from current location");
+                SaveFile? saveFile = null;
+                Navigator? navigator = null;
+                await Task.Run(() =>
+                {
+                    saveFile = SaveFile.Read("profile.sav");
+                    navigator = new Navigator(saveFile);
+                });
+                logFunction?.Invoke("Load successful");
+                return (0, saveFile, navigator);
+            }
+            catch (Exception ex)
+            {
+                logFunction?.Invoke($"Error ({ex.GetType()}): {ex.Message}");
+                return (-1, null, null);
+            }
+        }
+
+        public static async Task<(int status, string filepath)> SaveSteam(SaveFile saveFile, Action<string>? logFunction = null)
+        {
+            try
+            {
+                logFunction?.Invoke("Saving to steam saves");
+                await Task.Run(() =>
+                {
+                    string folder = steamSavePath;
+                    string path = Path.Combine(folder, staticFileName);
+                    SaveFile.Write(path, saveFile);
+                });
+
+                string filepath = Path.Combine(steamSavePath, staticFileName);
+                logFunction?.Invoke($"Saved at {filepath}");
+                return (0, filepath);
+            }
+            catch (Exception ex)
+            {
+                logFunction?.Invoke($"Error ({ex.GetType()}): {ex.Message}");
+                return (-1, "");
+            }
+        }
+
         public static async Task<(int status, string filepath)> SaveStatic(SaveFile saveFile, Action<string>? logFunction = null)
         {
             try
             {
+                logFunction?.Invoke("Saving at current location");
                 await Task.Run(() => { SaveFile.Write(staticFileName, saveFile); });
 
-                return (0, Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? "", staticFileName));
+                string filepath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? "", staticFileName);
+                logFunction?.Invoke($"Saved at {filepath}");
+                return (0, filepath);
             }
             catch (Exception ex)
             {

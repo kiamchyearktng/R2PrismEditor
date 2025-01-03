@@ -62,10 +62,13 @@ namespace wpfinterface
                 LogToOutput($"No prisms found");
                 return;
             }
+            int rollCount = 0;
             foreach (PrismData prismData in prisms)
             {
-                if (prismData.pendingRoll)
+                if (prismData.pendingRoll) {
+                    rollCount++;
                     prismData.pendingRoll = false;
+                }
                 prismData.currentSeed = Random.Shared.Next();
             }
             if (selectedPrism != null)
@@ -80,6 +83,7 @@ namespace wpfinterface
             }
             safe_pending.Content = false.ToString();
             ResetPendingButton.IsEnabled = false;
+            LogToOutput($"{prisms.Count} prisms randomised ({rollCount} pending choices removed)");
         }
 
         private void ChangeSeedButton_Click(object sender, RoutedEventArgs e)

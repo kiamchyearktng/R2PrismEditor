@@ -77,7 +77,7 @@
                 <Button x:Name="LoadDialogButton" IsEnabled="False" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Stretch" Click="NotImplementedButton_Click">
                     <Label Style="{StaticResource ButtonText}">Open file</Label>
                 </Button>
-                <Button x:Name="LoadStaticButton" IsEnabled="False" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" Click="NotImplementedButton_Click">
+                <Button x:Name="LoadStaticButton" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" Click="LoadStaticButton_Click">
                     <Label Style="{StaticResource ButtonText}">Open in place</Label>
                 </Button>
             </Grid>
@@ -88,7 +88,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition />
                 </Grid.RowDefinitions>
-                <TextBox xml:space="preserve" Name="OutputBox" IsReadOnly="True" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" IsUndoEnabled="False" TextWrapping="Wrap">Welcome to R2 prism editor! Use at your own risk.&#10;Always back up your save files before replacing anything.</TextBox>
+                <TextBox x:Name="OutputBox" Background="#f0f0f0" IsReadOnly="True" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" IsUndoEnabled="False" TextWrapping="Wrap" Text="Welcome to R2 prism editor! Use at your own risk.&#xA;Always back up your save files. The &quot;Save (Steam)&quot; button will OVERRIDE your steam save. Make sure you have manually backed up your saves before proceeding!"/>
             </Grid>
             <Grid Grid.Row="0" Grid.Column="2" Margin="10">
                 <Grid.ColumnDefinitions>
@@ -99,7 +99,7 @@
                     <RowDefinition />
                     <RowDefinition />
                 </Grid.RowDefinitions>
-                <Button x:Name="SaveSteamButton" IsEnabled="False" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" Click="NotImplementedButton_Click" Background="#ff8080">
+                <Button x:Name="SaveSteamButton" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" Click="SaveSteamButton_Click" Background="#ff8080">
                     <Label Style="{StaticResource ButtonText}">Save (Steam)</Label>
                 </Button>
                 <Button x:Name="SaveDialogButton" IsEnabled="False" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Stretch" Click="NotImplementedButton_Click">
@@ -113,7 +113,7 @@
         <TabControl x:Name="TabControlMain" Grid.Row="1" Margin="10" Background="#e0e0e0">
             <TabItem Name="TabReadme" Header="README" IsSelected="True">
                 <Grid Margin="10">
-                    <TextBlock TextWrapping="Wrap" Text="R2 Prism Editor README&#xA;This program has very few guardrails and safety measures. For the safety of your save files, read before using!&#xA;&#xA;==Preparation==&#xA;Back up your save files before attempting any edits! Save file editing is like blindfolded brain surgery with your feet. There are no guarantees that anything will work, and you can even brick your save, so make sure you have a clean copy to revert to.&#xA;Steam saves are usually stored in C:\Users\(username)\Saved Games\Remnant2\Steam&#xA;&#xA;==Instructions==&#xA;To use the prism editor, first open a save file. &quot;Open (Steam)&quot; will attempt to locate your steam save. Use &quot;Open file&quot; to locate the file using a dialog instead. &quot;Open in place&quot; searches only this executable's directory for a &quot;profile.sav&quot;.&#xA;Click on the &quot;Browse Prisms&quot; tab to start editing. There, you can see a quick overview of all prisms in the save file, and select one to edit.&#xA;Once a prism is selected, you can use the other 3 tabs to make changes. They are sorted by how likely they are to leave obvious traces of save editing, or possibly make the save file unreadable.&#xA;&#xA;Safe-ish: Re-roll fragment choices by randomising or customising their seed, and removing pending choices. Useful for rerolling legendaries or if RNG has screwed you over despite feeding fragments to the prism.&#xA;Unsafe (WIP): Change the amount of pending experience. Delete or change the strength of fed fragments.&#xA;Risky (WIP): Directly edit the prism segments and fragments. Mistakes may brick your save.&#xA;&#xA;Once you are done with the changes, save the new file. &quot;Save file&quot; will open a file dialog while &quot;Save in place&quot; will drop the file in the same folder as this executable. BE CAREFUL WITH THE &quot;Save (Steam)&quot; BUTTON. MAKE SURE YOUR SAVE IS BACKED UP ELSEWHERE."/>
+                    <TextBlock TextWrapping="Wrap" Text="R2 Prism Editor version 0.1.0&#xA;This program has very few guardrails and safety measures. For the safety of your save files, read before using!&#xA;&#xA;==Preparation==&#xA;Back up your save files before attempting any edits! Save file editing is like blindfolded brain surgery with your feet. There are no guarantees that anything will work, and you can even brick your save, so make sure you have a clean copy to revert to.&#xA;Steam saves are usually stored in C:\Users\(username)\Saved Games\Remnant2\Steam&#xA;&#xA;==Instructions==&#xA;To use the prism editor, first open a save file. &quot;Open (Steam)&quot; will attempt to locate your steam save. Use &quot;Open file&quot; to locate the file using a dialog instead. &quot;Open in place&quot; searches only this executable's directory for a &quot;profile.sav&quot;.&#xA;Click on the &quot;Browse Prisms&quot; tab to start editing. There, you can see a quick overview of all prisms in the save file, and select one to edit.&#xA;Once a prism is selected, you can use the other 3 tabs to make changes. They are sorted by how likely they are to leave obvious traces of save editing, or possibly make the save file unreadable.&#xA;&#xA;Safe-ish: Re-roll fragment choices by randomising or customising their seed, and removing pending choices. Useful for rerolling legendaries or if RNG has screwed you over despite feeding fragments to the prism.&#xA;Unsafe (WIP): Change the amount of pending experience. Delete or change the strength of fed fragments.&#xA;Risky (WIP): Directly edit the prism segments and fragments. Mistakes may brick your save.&#xA;&#xA;Once you are done with the changes, save the new file. &quot;Save file&quot; will open a file dialog while &quot;Save in place&quot; will drop the file in the same folder as this executable. BE CAREFUL WITH THE &quot;Save (Steam)&quot; BUTTON. MAKE SURE YOUR SAVE IS BACKED UP ELSEWHERE."/>
                 </Grid>
             </TabItem>
             <TabItem Name="TabBrowse" Header="Browse Prisms" Selector.Selected="TabBrowse_Selected">
@@ -161,7 +161,7 @@
                             <Label Grid.Column="2" Grid.Row="2" Name="browse_segments">-</Label>
                             <Label Grid.Column="6" Grid.Row="2" Name="browse_fragments">-</Label>
                         </Grid>
-                        <Label Grid.Row="1">Bug note: prisms may reappear under characters that do not exist. You can just ignore these extra prisms.</Label>
+                        <Label Grid.Row="1" Content="Prisms in the save file are not labelled by name. To make sure you are editing the right prism, match its level and &#xD;&#xA;segments to what you see in game. Bug note: prisms may reappear under characters that do not exist. You should &#xD;&#xA;avoid editing these extra prisms as they are the same entry as an existing prism."/>
                     </Grid>
                 </Grid>
             </TabItem>

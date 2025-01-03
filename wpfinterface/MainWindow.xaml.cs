@@ -47,6 +47,27 @@ namespace wpfinterface
             }
         }
 
+        private async void LoadStaticButton_Click(object sender, RoutedEventArgs e)
+        {
+            var r = await Scripts.LoadStatic(LogToOutput);
+            if (r.status == 0)
+            {
+                saveFile = r.sf;
+                navigator = r.nav;
+                PopulatePrisms();
+            }
+        }
+
+        private async void SaveSteamButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (saveFile == null)
+            {
+                LogToOutput("No save file loaded");
+                return;
+            }
+            var r = await Scripts.SaveSteam(saveFile, LogToOutput);
+        }
+
         private async void SaveStaticButton_Click(object sender, RoutedEventArgs e)
         {
             if (saveFile == null)
@@ -55,10 +76,6 @@ namespace wpfinterface
                 return;
             }
             var r = await Scripts.SaveStatic(saveFile, LogToOutput);
-            if (r.status == 0)
-            {
-                LogToOutput($"Saved at {r.filepath}");
-            }
         }
 
         private async void PopulatePrisms()
