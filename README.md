@@ -1,6 +1,6 @@
 # Remnant 2 Prism Editor
 
-This is a save parser for Remnant 2 attached to a WPF user interface that allows the user to make quick edits to the prisms within.
+This is a save parser for Remnant 2 attached to a WPF user interface that allows the user to make quick edits to the prisms within. Current version: v0.1.0
 
 Preceding work for the Remnant 2 save parser is done by Andrew Savinykh at <https://github.com/AndrewSav/lib.remnant2.saves>, as well as his credited individuals [t1nky](https://github.com/t1nky/remnant-item-finder) and [crackedmind](https://github.com/crackedmind).
 
@@ -23,7 +23,10 @@ Future features
 
 ## How to run
 
-- TBD
+- You may go to the [releases page](https://github.com/kiamchyearktng/R2PrismEditor/releases) and download the latest executable.
+    - You may need to install .NET 8.0 from [Microsoft's download page](https://dotnet.microsoft.com/en-us/download).
+- If you don't trust the binaries, I applaud you for your dedication to security. You can download the code and compile it yourself, or run it in debug mode if you wish to understand it.
+    - I use Visual Studio 2022 and the project runs .NET 8.0.
 
 ## Code overview
 
@@ -41,3 +44,10 @@ I welcome any feedback, bug report, or code contribution. For now, I am mainly a
 Those looking to fork the project can do so at will for non-commercial purposes, as long as credit is given to me, plus the three individuals mentioned above.
 
 Visit the [Remnant Toolkit](https://www.remnant2toolkit.com) and [its discord](https://discord.gg/kgVaU3zAQ7) for more helpful tools and discussion relating to Remnant 2.
+
+## Latest changes
+
+### v0.1.0
+- Enabled load in place and save steam buttons
+- Reworded some warnings more strongly
+- v0.1.0 executable released
