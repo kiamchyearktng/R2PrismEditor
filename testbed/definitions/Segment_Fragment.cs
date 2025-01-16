@@ -1,5 +1,6 @@
 ﻿using lib.remnant2.saves.Model.Parts;
 using lib.remnant2.saves.Model.Properties;
+using lib.remnant2.saves.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +35,7 @@ namespace prismeditor.definitions
 
         public int Level {
             get { return properties["FedLevel"].Get<int>(); }
-            // no set
+            set { properties["FedLevel"].Value = value; }
         }
     }
 }

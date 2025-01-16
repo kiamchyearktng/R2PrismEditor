@@ -128,7 +128,6 @@ namespace wpfinterface
             string currentSeed = NullToString(prismData.currentSeed);
             string pendingRoll = NullToString(prismData.pendingRoll);
 
-            int uiLevelCount = 0;
             string segments = "";
             string fedFragments = "";
 
@@ -136,7 +135,6 @@ namespace wpfinterface
             {
                 int slevel = prismData.segments[i].Level;
                 string sname = prismData.segments[i].Name;
-                uiLevelCount += slevel;
                 segments += $"{sname} ({slevel})\n";
             }
 
@@ -147,7 +145,7 @@ namespace wpfinterface
                 fedFragments += $"{fname} ({flevel}/32)\n";
             }
 
-            browse_level.Content = $"{uiLevelCount} ({internalLevel})";
+            browse_level.Content = $"{prismData.uiLevel} ({internalLevel})";
             browse_exp.Content = experience;
             browse_seed.Content = currentSeed;
             browse_pending.Content = pendingRoll;
@@ -190,25 +188,45 @@ namespace wpfinterface
             return input.ToString()!;
         }
 
-        public static string GetPrismText(PrismData prismData)
+        public static string GetPrismText(PrismData prismData, bool full = false)
         {
-            return $"char {prismData.charIndex + 1}, prism {prismData.prismIndex + 1}";
+            return full
+                ? $"char {prismData.charIndex + 1}, prism {prismData.prismIndex + 1} (level {prismData.uiLevel})"
+                : $"char {prismData.charIndex + 1}, prism {prismData.prismIndex + 1}";
         }
 
-        private void NumberBoxCheck(object sender, TextCompositionEventArgs e)
+        private string GetNewNumberText(object sender, TextCompositionEventArgs e)
         {
             try
             {
                 TextBox textBox = (TextBox)sender;
                 var oldText = textBox.Text.Remove(textBox.SelectionStart, textBox.SelectionLength);
                 string newText = oldText.Insert(textBox.CaretIndex, e.Text);
-                e.Handled = !int.TryParse(newText, out var _);
+                return newText;
             }
             catch (Exception ex)
             {
                 LogToOutput($"Error ({ex.GetType()}): {ex.Message}");
-                e.Handled = true;
+                return "";
             }
+        }
+
+        private void NumberBoxCheck(object sender, TextCompositionEventArgs e)
+        {
+            string newText = GetNewNumberText(sender, e);
+            e.Handled = !int.TryParse(newText, out var _);
+        }
+
+        private void NumberBoxCheckNonNegative(object sender, TextCompositionEventArgs e)
+        {
+            string newText = GetNewNumberText(sender, e);
+            e.Handled = !int.TryParse(newText, out var newInt) || newInt < 0;
+        }
+
+        private void NumberBoxCheckFragment(object sender, TextCompositionEventArgs e)
+        {
+            string newText = GetNewNumberText(sender, e);
+            e.Handled = !int.TryParse(newText, out var newInt) || newInt < 0 || newInt > 32;
         }
 
         public void LogToOutput(string message)

@@ -20,8 +20,16 @@
             <Setter Property="Margin" Value="10, 0, 10, 0" />
             <Setter Property="Padding" Value="0, 0, 0, 0" />
         </Style>
+        <Style TargetType="Label">
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Padding" Value="5, 0, 5, 0" />
+        </Style>
+        <Style x:Key="MultilineLabel" TargetType="Label">
+            <Setter Property="VerticalContentAlignment" Value="Top" />
+            <Setter Property="Padding" Value="5" />
+        </Style>
         <Style TargetType="TabItem">
-            <Setter Property="Padding" Value="10, 4, 10, 4" />
+            <Setter Property="Padding" Value="10, 2, 10, 2" />
             <Setter Property="MinWidth" Value="80" />
         </Style>
         <Style TargetType="ListBoxItem">
@@ -113,7 +121,7 @@
         <TabControl x:Name="TabControlMain" Grid.Row="1" Margin="10" Background="#e0e0e0">
             <TabItem Name="TabReadme" Header="README" IsSelected="True">
                 <Grid Margin="10">
-                    <TextBlock TextWrapping="Wrap" Text="R2 Prism Editor version 0.1.0&#xA;This program has very few guardrails and safety measures. For the safety of your save files, read before using!&#xA;&#xA;==Preparation==&#xA;Back up your save files before attempting any edits! Save file editing is like blindfolded brain surgery with your feet. There are no guarantees that anything will work, and you can even brick your save, so make sure you have a clean copy to revert to.&#xA;Steam saves are usually stored in C:\Users\(username)\Saved Games\Remnant2\Steam&#xA;&#xA;==Instructions==&#xA;To use the prism editor, first open a save file. &quot;Open (Steam)&quot; will attempt to locate your steam save. Use &quot;Open file&quot; to locate the file using a dialog instead. &quot;Open in place&quot; searches only this executable's directory for a &quot;profile.sav&quot;.&#xA;Click on the &quot;Browse Prisms&quot; tab to start editing. There, you can see a quick overview of all prisms in the save file, and select one to edit.&#xA;Once a prism is selected, you can use the other 3 tabs to make changes. They are sorted by how likely they are to leave obvious traces of save editing, or possibly make the save file unreadable.&#xA;&#xA;Safe-ish: Re-roll fragment choices by randomising or customising their seed, and removing pending choices. Useful for rerolling legendaries or if RNG has screwed you over despite feeding fragments to the prism.&#xA;Unsafe (WIP): Change the amount of pending experience. Delete or change the strength of fed fragments.&#xA;Risky (WIP): Directly edit the prism segments and fragments. Mistakes may brick your save.&#xA;&#xA;Once you are done with the changes, save the new file. &quot;Save file&quot; will open a file dialog while &quot;Save in place&quot; will drop the file in the same folder as this executable. BE CAREFUL WITH THE &quot;Save (Steam)&quot; BUTTON. MAKE SURE YOUR SAVE IS BACKED UP ELSEWHERE."/>
+                    <TextBlock TextWrapping="Wrap" Text="R2 Prism Editor version 0.2.0&#xA;This program has very few guardrails and safety measures. For the safety of your save files, read before using!&#xA;&#xA;==Preparation==&#xA;Back up your save files before attempting any edits! Save file editing is like blindfolded brain surgery with your feet. There are no guarantees that anything will work, and you can even brick your save, so make sure you have a clean copy to revert to.&#xA;Steam saves are usually stored in C:\Users\(username)\Saved Games\Remnant2\Steam&#xA;&#xA;==Instructions==&#xA;To use the prism editor, first open a save file. &quot;Open (Steam)&quot; will attempt to locate your steam save. Use &quot;Open file&quot; to locate the file using a dialog instead. &quot;Open in place&quot; searches only this executable's directory for a &quot;profile.sav&quot;.&#xA;Click on the &quot;Browse Prisms&quot; tab to start editing. There, you can see a quick overview of all prisms in the save file, and select one to edit.&#xA;Once a prism is selected, you can use the other 3 tabs to make changes. They are sorted by how likely they are to leave obvious traces of save editing, or possibly make the save file unreadable.&#xA;&#xA;Safe-ish: Re-roll fragment choices by randomising or customising their seed, and removing pending choices. Useful for rerolling legendaries or if RNG has screwed you over despite feeding fragments to the prism.&#xA;Unsafe: Change the amount of pending experience. Change the strength of fed fragments.&#xA;Risky (WIP): Directly edit the prism segments and fragments. Mistakes may brick your save.&#xA;&#xA;Once you are done with the changes, save the new file. &quot;Save file&quot; will open a file dialog while &quot;Save in place&quot; will drop the file in the same folder as this executable. BE CAREFUL WITH THE &quot;Save (Steam)&quot; BUTTON. MAKE SURE YOUR SAVE IS BACKED UP ELSEWHERE."/>
                 </Grid>
             </TabItem>
             <TabItem Name="TabBrowse" Header="Browse Prisms" Selector.Selected="TabBrowse_Selected">
@@ -144,22 +152,23 @@
                                 <ColumnDefinition />
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="auto" />
-                                <RowDefinition Height="auto" />
+                                <RowDefinition MinHeight="25" Height="auto" />
+                                <RowDefinition MinHeight="25" Height="auto" />
+                                <RowDefinition MinHeight="25" Height="auto" />
                                 <RowDefinition />
                             </Grid.RowDefinitions>
                             <Label Grid.Column="0" Grid.Row="0" HorizontalContentAlignment="Right">Level:</Label>
                             <Label Grid.Column="4" Grid.Row="0" HorizontalContentAlignment="Right">Experience:</Label>
                             <Label Grid.Column="0" Grid.Row="1" HorizontalContentAlignment="Right">Seed:</Label>
                             <Label Grid.Column="4" Grid.Row="1" HorizontalContentAlignment="Right">Pending:</Label>
-                            <Label Grid.Column="0" Grid.Row="2" HorizontalContentAlignment="Right">Segments:</Label>
-                            <Label Grid.Column="4" Grid.Row="2" HorizontalContentAlignment="Right">Fragments:</Label>
+                            <Label Grid.Column="0" Grid.Row="2" Style="{StaticResource MultilineLabel}" HorizontalContentAlignment="Right">Segments:</Label>
+                            <Label Grid.Column="4" Grid.Row="2" Style="{StaticResource MultilineLabel}" HorizontalContentAlignment="Right">Fragments:</Label>
                             <Label Grid.Column="2" Grid.Row="0" Name="browse_level">-</Label>
                             <Label Grid.Column="6" Grid.Row="0" Name="browse_exp">-</Label>
                             <Label Grid.Column="2" Grid.Row="1" Name="browse_seed">-</Label>
                             <Label Grid.Column="6" Grid.Row="1" Name="browse_pending">-</Label>
-                            <Label Grid.Column="2" Grid.Row="2" Name="browse_segments">-</Label>
-                            <Label Grid.Column="6" Grid.Row="2" Name="browse_fragments">-</Label>
+                            <Label Grid.Column="2" Grid.Row="2" Style="{StaticResource MultilineLabel}" Name="browse_segments">-</Label>
+                            <Label Grid.Column="6" Grid.Row="2" Style="{StaticResource MultilineLabel}" Name="browse_fragments">-</Label>
                         </Grid>
                         <Label Grid.Row="1" Content="Prisms in the save file are not labelled by name. To make sure you are editing the right prism, match its level and &#xD;&#xA;segments to what you see in game. Bug note: prisms may reappear under characters that do not exist. You should &#xD;&#xA;avoid editing these extra prisms as they are the same entry as an existing prism."/>
                     </Grid>
@@ -228,15 +237,69 @@
                     <Label Grid.Row="6">Bug note: negative seeds may be unreliable.</Label>
                 </Grid>
             </TabItem>
-            <TabItem Name="TabUnsafe" Header="Unsafe">
-                <Grid Margin="10">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="auto" />
-                    </Grid.ColumnDefinitions>
+            <TabItem Name="TabUnsafe" Header="Unsafe" Selector.Selected="TabUnsafe_Selected">
+                <Grid x:Name="grid1" Margin="10">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition />
                     </Grid.RowDefinitions>
-                    <Label>Work in progress</Label>
+                    <Label Grid.Row="0" Margin="0, 0, 0, 10">Edit current experience here. Warning: adding more experience than a prism needs to max out may leave a visible trace in game.</Label>
+                    <Grid Grid.Row="1" Margin="0, 0, 0, 10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0">Currently selected prism:</Label>
+                        <Label Name="unsafe_selected" Grid.Column="1">-</Label>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0">Pending experience:</Label>
+                        <Label Grid.Column="1" Grid.Row="0" Name="unsafe_exp">-</Label>
+                        <TextBox x:Name="ExpInputBox" Grid.Column="2" Width="85" VerticalContentAlignment="Center" PreviewTextInput="NumberBoxCheckNonNegative" Margin="20, 0, 0, 0"></TextBox>
+                        <Button x:Name="ChangeExpButton" Grid.Column="3" Click="ChangeExpButton_Click" Margin="10, 0, 0, 0">
+                            <Label Style="{StaticResource ButtonText}">Change</Label>
+                        </Button>
+                        <Button x:Name="ZeroExpButton" Grid.Column="4" Click="ZeroExpButton_Click" Margin="10, 0, 0, 0">
+                            <Label Style="{StaticResource ButtonText}">Zero</Label>
+                        </Button>
+                    </Grid>
+                    <Label Grid.Row="3" Margin="0, 30, 0, 10">Edit fed fragment strength here. Max 16 displayed at once.</Label>
+                    <Grid x:Name="FragmentGrid" Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="150" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                    </Grid>
                 </Grid>
             </TabItem>
             <TabItem Name="TabRisky" Header="Risky">

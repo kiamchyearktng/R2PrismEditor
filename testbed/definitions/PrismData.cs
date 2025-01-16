@@ -62,5 +62,9 @@ namespace prismeditor.definitions
         public List<Fragment> fragments {
             get { return fragmentList; }
         }
+
+        public int uiLevel {
+            get { return segmentList.Sum(x => x.Level); }
+        }
     }
 }

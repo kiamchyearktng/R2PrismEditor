@@ -15,10 +15,10 @@ BACK UP ALL YOUR SAVES BEFORE RUNNING ANYTHING! The available options are sorted
 Current features:
 - View prism details: level, internal level, experience, RNG seed, pending choice, prism segments, and fed fragments
 - Reroll one or all prisms' RNG seed, or just reset their pending choice
+- Edit remaining experience and fed fragment strength
 
 Future features
 - More options for saving and loading files
-- Edit remaining experience
 - Edit segments and fed fragments
 
 ## How to run
@@ -47,7 +47,9 @@ Visit the [Remnant Toolkit](https://www.remnant2toolkit.com) and [its discord](h
 
 ## Latest changes
 
+### v0.2.0
+- Added unsafe tab with experience and fed fragments function
+
 ### v0.1.0
 - Enabled load in place and save steam buttons
 - Reworded some warnings more strongly
-- v0.1.0 executable released

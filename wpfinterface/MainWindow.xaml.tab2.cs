@@ -17,7 +17,7 @@ namespace wpfinterface
             ReseedAllButton.IsEnabled = prisms.Count > 0;
             if (selectedPrism != null)
             {
-                safe_selected.Content = GetPrismText(selectedPrism);
+                safe_selected.Content = GetPrismText(selectedPrism, true);
                 safe_seed.Content = selectedPrism.currentSeed.ToString();
                 SeedInputBox.Text = selectedPrism.currentSeed.ToString();
                 safe_pending.Content = selectedPrism.pendingRoll.ToString();
@@ -100,7 +100,7 @@ namespace wpfinterface
             }
             if (newSeed == selectedPrism.currentSeed)
             {
-                LogToOutput($"New seed is same as current seed");
+                LogToOutput($"New value is same as current value");
                 return;
             }
             ChangeSeed(newSeed);
