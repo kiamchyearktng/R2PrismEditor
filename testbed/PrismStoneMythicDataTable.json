@@ -1,0 +1,1192 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PrismStoneMythicDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'PrismStoneDataTableRow'",
+        "ObjectPath": "/Script/Remnant"
+      }
+    },
+    "Rows": {
+      "MasterKiller": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "4CD01FFB491D5E60B7A51B8367E6A54C",
+          "SourceString": "Master Killer",
+          "LocalizedString": "Master Killer"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_MasterKiller.PrismSegment_MasterKiller_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "98AB7F4B4D80B579D928BF8C0EE2D000",
+          "SourceString": "Multiplies Weakspot Damage by 1.35x.",
+          "LocalizedString": "Multiplies Weakspot Damage by 1.35x."
+        }
+      },
+      "Immovable": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "8F1326D94089F727F62385B58846F76C",
+          "SourceString": "Immovable",
+          "LocalizedString": "Immovable"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Immovable.Action_Segment_Immovable_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "3A67236F45ADC615B2DDFDAF6303C1A6",
+          "SourceString": "Cannot be Staggered while BULWARK is active.",
+          "LocalizedString": "Cannot be Staggered while BULWARK is active."
+        }
+      },
+      "FullHearted": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "6B72A4B848B9EEED38B0AD9B048E32E6",
+          "SourceString": "Full Hearted",
+          "LocalizedString": "Full Hearted"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_FullHearted.PrismSegment_FullHearted_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "B3492E23476E9389C1F5F198EF2484FF",
+          "SourceString": "Increases Relic Charges by 100%.",
+          "LocalizedString": "Increases Relic Charges by 100%."
+        }
+      },
+      "Allegiance": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "7367B2CC4036586377E2BA980FBF5FA7",
+          "SourceString": "Allegiance",
+          "LocalizedString": "Allegiance"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Allegiance.Action_Segment_Allegiance_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "81ADBC064FEBFC8DD119B0A3CB3CE37C",
+          "SourceString": "Cannot Kill or Be Killed by Friendly Fire Damage.",
+          "LocalizedString": "Cannot Kill or Be Killed by Friendly Fire Damage."
+        }
+      },
+      "Outlaw": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "BC0ED6884657A39647F939ACB442556B",
+          "SourceString": "Outlaw",
+          "LocalizedString": "Outlaw"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Outlaw.Action_Segment_Outlaw_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "A6C84DDE4483792BA89CA8B64BA2ABE6",
+          "SourceString": "Reloading Reloads both Weapons.",
+          "LocalizedString": "Reloading Reloads both Weapons."
+        }
+      },
+      "Soulmate": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "5E9129364A3DB0C36A0753A57611AB3A",
+          "SourceString": "Soulmate",
+          "LocalizedString": "Soulmate"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Soulmate.PrismSegment_Soulmate_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "3FECC2904EB485B29252C298DC6D2915",
+          "SourceString": "Increases Summon Limit by 1.",
+          "LocalizedString": "Increases Summon Limit by 1."
+        }
+      },
+      "HeavyDrinker": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "40100AD84A84FA5C15D4CCACB927A57A",
+          "SourceString": "Heavy Drinker",
+          "LocalizedString": "Heavy Drinker"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_HeavyDrinker.PrismSegment_HeavyDrinker_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "DF0236CF42FEF205F9324A8EFA47E0A2",
+          "SourceString": "Increases Concoction Limit by 5.",
+          "LocalizedString": "Increases Concoction Limit by 5."
+        }
+      },
+      "BoundlessEnergy": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "77B89A0F4893B0609EC59AA8760D62B5",
+          "SourceString": "Boundless Energy",
+          "LocalizedString": "Boundless Energy"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_BoundlessEnergy.PrismSegment_BoundlessEnergy_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_BoundlessEnergy.Action_Segment_BoundlessEnergy_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "C90040674BD739837EF6E3848716E361",
+          "SourceString": "Grants Infinite N'Erudian Energy.",
+          "LocalizedString": "Grants Infinite N'Erudian Energy."
+        }
+      },
+      "PowerTrip": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "0FFD90B14600F0770E9F0BB7432AB5EC",
+          "SourceString": "Power Trip",
+          "LocalizedString": "Power Trip"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_PowerTrip.PrismSegment_PowerTrip_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "E9FF33674D4B9FFB952CBD8A77C1EABE",
+          "SourceString": "Doubles Mod Charges.",
+          "LocalizedString": "Doubles Mod Charges."
+        }
+      },
+      "FleetFooted": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "215B56464CCBAF3F6FA3BB976E9A1B6F",
+          "SourceString": "Fleet Footed",
+          "LocalizedString": "Fleet Footed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_FleetFooted.PrismSegment_FleetFooted_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "B9B2B4A246BD6C06BAFDEC9DBB8083F7",
+          "SourceString": "Increases Dodge Weight Threshold by 100.",
+          "LocalizedString": "Increases Dodge Weight Threshold by 100."
+        }
+      },
+      "LuckOfTheDevil": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "72A57ABF498DFECCB6BC70B865405935",
+          "SourceString": "Luck of the Devil",
+          "LocalizedString": "Luck of the Devil"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_LuckOfTheDevil.PrismSegment_LuckOfTheDevil_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "22C0D3424A3BFB696542CE82B7CB812B",
+          "SourceString": "Grants EXTREME Luck.",
+          "LocalizedString": "Grants EXTREME Luck."
+        }
+      },
+      "Sadistic": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "8CC46B8C40A618BC01B7C6B0CE282A46",
+          "SourceString": "Sadistic",
+          "LocalizedString": "Sadistic"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Sadistic.Action_Segment_Sadistic_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "3AC6E95F4A1C26CC6A78389DF19BF3B2",
+          "SourceString": "Status Effect Damage has a 50% chance to deal 2x more damage per tick.",
+          "LocalizedString": "Status Effect Damage has a 50% chance to deal 2x more damage per tick."
+        }
+      },
+      "Unbridled": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "1CA2B2554C8BDBCAF776A687C886B1F0",
+          "SourceString": "Unbridled",
+          "LocalizedString": "Unbridled"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Unbridled.PrismSegment_Unbridled_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "718EFB4542AB86B0A20770A4BC17390C",
+          "SourceString": "Reduces all Skill Cooldowns by Half.",
+          "LocalizedString": "Reduces all Skill Cooldowns by Half."
+        }
+      },
+      "DefensiveMeasures": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3B64D0464B506682C3DDB4B09652DFE4",
+          "SourceString": "Defense Measures",
+          "LocalizedString": "Defense Measures"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_DefensiveMeasures.PrismSegment_DefensiveMeasures_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "949E8BEF4B768AC578D5688411649DD7",
+          "SourceString": "Increases SHIELD Maximum by 100%.",
+          "LocalizedString": "Increases SHIELD Maximum by 100%."
+        }
+      },
+      "GodTear": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "1C634CE04ABA632F60B0909B7E12C1E2",
+          "SourceString": "God Tear",
+          "LocalizedString": "God Tear"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_GodTear.PrismSegment_GodTear_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "DDA756DE4641F5DB7B914BAF0825C70D",
+          "SourceString": "Reduces Cheat Death Cooldowns by 50%.",
+          "LocalizedString": "Reduces Cheat Death Cooldowns by 50%."
+        }
+      },
+      "SpeedDemon": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "1EF307E24DB08C541957D8913E3AC7BD",
+          "SourceString": "Speed Demon",
+          "LocalizedString": "Speed Demon"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_SpeedDemon.PrismSegment_SpeedDemon_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "112E5C0C438BE573E7F745849E9A24B8",
+          "SourceString": "Grants Maximum Movement Speed Bonuses.",
+          "LocalizedString": "Grants Maximum Movement Speed Bonuses."
+        }
+      },
+      "Reverberation": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "543AC4314573847B2FACFB9DD9F47502",
+          "SourceString": "Reverberation",
+          "LocalizedString": "Reverberation"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Reverberation.PrismSegment_Reverberation_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "7B05790E42539B03D53FDD964C91189A",
+          "SourceString": "Increases Stamina Recovery by 200 per second.",
+          "LocalizedString": "Increases Stamina Recovery by 200 per second."
+        }
+      },
+      "Hyperactive": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "217CC5494AF01E28D2F82195C1AFB938",
+          "SourceString": "Hyperactive",
+          "LocalizedString": "Hyperactive"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Hyperactive.PrismSegment_Hyperactive_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "1CB165284050530061F6509A1367FCCC",
+          "SourceString": "Increases HASTE Effectiveness by 100%.",
+          "LocalizedString": "Increases HASTE Effectiveness by 100%."
+        }
+      },
+      "PrimeTime": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "53360B6E42CB76D06A5897BA54698829",
+          "SourceString": "Prime Time",
+          "LocalizedString": "Prime Time"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_PrimeTime.Action_Segment_PrimeTime_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "56B96A3643A6EB3810F70F87BE4C285A",
+          "SourceString": "Enables Prime Perk for Secondary Archetype.",
+          "LocalizedString": "Enables Prime Perk for Secondary Archetype."
+        }
+      },
+      "Exhausted": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "2E938F0A4B8D2377D2D431A3FC9DFB0C",
+          "SourceString": "Exhausted",
+          "LocalizedString": "Exhausted"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Exhausted.PrismSegment_Exhausted_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "0F72285A4A094C280341C2878780B19D",
+          "SourceString": "Increases Heat Decay Rate by 250%.",
+          "LocalizedString": "Increases Heat Decay Rate by 250%."
+        }
+      },
+      "Overpowered": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "279D0DB04EF16995A655E8BF3BEF450E",
+          "SourceString": "Overpowered",
+          "LocalizedString": "Overpowered"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Overpowered.PrismSegment_Overpowered_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "102A3C60471D1FC9AD891B871976AD75",
+          "SourceString": "Increases Mod Generation by 50%.",
+          "LocalizedString": "Increases Mod Generation by 50%."
+        }
+      },
+      "Gigantic": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3389A7EB4ABF45F20BB85785D2F41832",
+          "SourceString": "Gigantic",
+          "LocalizedString": "Gigantic"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Gigantic.PrismSegment_Gigantic_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "4B64E93D4AB75D51BABFBABE88FDE1B1",
+          "SourceString": "Grants 50 Health and Stamina.",
+          "LocalizedString": "Grants 50 Health and Stamina."
+        }
+      },
+      "Traitor": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "59F410D04661B80695E81DAC14323AD4",
+          "SourceString": "Traitor",
+          "LocalizedString": "Traitor"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Traitor.Action_Segment_Traitor_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "C6596DE14883179D873AEC862445920E",
+          "SourceString": "Maxes out Core Traits.",
+          "LocalizedString": "Maxes out Core Traits."
+        }
+      },
+      "DarkOmen": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "C7D82A584A6B269D308B49A6D51BE71B",
+          "SourceString": "Dark Omen",
+          "LocalizedString": "Dark Omen"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_DarkOmen.Action_Segment_DarkOmen_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "18121D194C14409637521DB5D9263327",
+          "SourceString": "Dodges become Mist Step, costing Health instead of Stamina.",
+          "LocalizedString": "Dodges become Mist Step, costing Health instead of Stamina."
+        }
+      },
+      "Altruistic": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3BF91C314976DE47485EBDAF02AB8ED4",
+          "SourceString": "Altruistic",
+          "LocalizedString": "Altruistic"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Altruistic.Action_Segment_Altruistic_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "9C5416294480259104CED286A33E9D66",
+          "SourceString": "Lifesteal applies 50% of Stolen Health to Allies.",
+          "LocalizedString": "Lifesteal applies 50% of Stolen Health to Allies."
+        }
+      },
+      "Unbreakable": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "C475FE7B4C386118FECA3D967A98F66C",
+          "SourceString": "Unbreakable",
+          "LocalizedString": "Unbreakable"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Unbreakable.Action_Segment_Unbreakable_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "CC72BDBD451B8F3C588365AE33390A80",
+          "SourceString": "Grey Health cannot be removed.",
+          "LocalizedString": "Grey Health cannot be removed."
+        }
+      },
+      "InsultToInjury": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "0791F1F44500A64A3D7521B4D3D937FA",
+          "SourceString": "Insult to Injury",
+          "LocalizedString": "Insult to Injury"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_InsultToInjury.Action_Segment_InsultToInjury_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "D477A61E461775B414CEA98AD618FCF5",
+          "SourceString": "Applying any Negative Status Effect applies EXPOSED.",
+          "LocalizedString": "Applying any Negative Status Effect applies EXPOSED."
+        }
+      },
+      "Brutality": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "4EB392374A1E6D52AEEF4D93639D1740",
+          "SourceString": "Brutality",
+          "LocalizedString": "Brutality"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Brutality.PrismSegment_Brutality_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "E19901224149FE314931C689AB7DCC8D",
+          "SourceString": "All Damage Dealt and Received is increased by 100%.",
+          "LocalizedString": "All Damage Dealt and Received is increased by 100%."
+        }
+      },
+      "WreckingBall": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "7235B9884E4BB87396ED4196023FFECD",
+          "SourceString": "Wrecking Ball",
+          "LocalizedString": "Wrecking Ball"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_WreckingBall.Action_Segment_WreckingBall_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "B68D2FBA4D731878F0ABD4B2D2E27ACB",
+          "SourceString": "Increases Explosive Critical Chance by 100%.",
+          "LocalizedString": "Increases Explosive Critical Chance by 100%."
+        }
+      },
+      "SteelPlating": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "6B8682014FE5BFE7C454438D2286E93E",
+          "SourceString": "Steel Plating",
+          "LocalizedString": "Steel Plating"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_SteelPlating.PrismSegment_SteelPlating_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "6F58F6C64AFB2BC1944F85918A8D6903",
+          "SourceString": "Increases Armor by 150.",
+          "LocalizedString": "Increases Armor by 150."
+        }
+      },
+      "CriticalSituation": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "571912084322B1213BEE3D82BF8E3C65",
+          "SourceString": "Critical Situation",
+          "LocalizedString": "Critical Situation"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_CriticalSituation.Action_Segment_CriticalSituation_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "7A5560CB403C89373E7A0DBDCC0C2790",
+          "SourceString": "Grants 35% All Critical Chance within the LIGHT Weight Class.",
+          "LocalizedString": "Grants 35% All Critical Chance within the LIGHT Weight Class."
+        }
+      },
+      "SharpShooter": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "536A895D492366C38C08F2B10CE4045B",
+          "SourceString": "Sharpshooter",
+          "LocalizedString": "Sharpshooter"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Sharpshooter.PrismSegment_Sharpshooter_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "5CF99349442D689ABC68B3891AF44244",
+          "SourceString": "Increases Ranged Damage by 60%.",
+          "LocalizedString": "Increases Ranged Damage by 60%."
+        }
+      },
+      "JackOfAllTrades": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "D1B400C244135AFFB9BA558153C01CE9",
+          "SourceString": "Jack of all Trades",
+          "LocalizedString": "Jack of all Trades"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_JackOfAllTrades.PrismSegment_JackOfAllTrades_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "9125C907402783D19FDAD2955A44FEB1",
+          "SourceString": "Increases All Damage by 40%.",
+          "LocalizedString": "Increases All Damage by 40%."
+        }
+      },
+      "Vaccinated": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "C2E140C64FE8DE5A0ACDBC9493486510",
+          "SourceString": "Vaccinated",
+          "LocalizedString": "Vaccinated"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Vaccinated.Action_Segment_Vaccinated_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "7334C412484BF5DE8C594B900DC7C083",
+          "SourceString": "Immune to Negative Status Effects.",
+          "LocalizedString": "Immune to Negative Status Effects."
+        }
+      },
+      "PeakConditioning": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "CE918AB7464E32790D742EA269CFAF84",
+          "SourceString": "Peak Conditioning",
+          "LocalizedString": "Peak Conditioning"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_PeakConditioning.Action_Segment_PeakConditioning_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "BD27F561494FCD39DC9E0FA904EA3987",
+          "SourceString": "Grants Infinite Stamina.",
+          "LocalizedString": "Grants Infinite Stamina."
+        }
+      },
+      "Physician": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "7FCDAF8F4F192350CC3EE29E09544723",
+          "SourceString": "Physician",
+          "LocalizedString": "Physician"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Physician.PrismSegment_Physician_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "0DC4443C4622926C41D69998175CAFC9",
+          "SourceString": "Increases Healing Effectiveness by 100%.",
+          "LocalizedString": "Increases Healing Effectiveness by 100%."
+        }
+      },
+      "Impervious": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A63665AC4951879ADE3A5CAB5EEE2D3C",
+          "SourceString": "Impervious",
+          "LocalizedString": "Impervious"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Impervious.PrismSegment_Impervious_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "B0E88E7F4A96350880EF72B9607BB24A",
+          "SourceString": "Reduces All Incoming Damage by 30%.",
+          "LocalizedString": "Reduces All Incoming Damage by 30%."
+        }
+      },
+      "Spectrum": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "8FD94E214C5D3AF2BE173986B23DBFC3",
+          "SourceString": "Spectrum",
+          "LocalizedString": "Spectrum"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_Spectrum.PrismSegment_Spectrum_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "AC8A17294B6EE255153AD2851AA878BA",
+          "SourceString": "Gain Bonuses Based on Color of Fragments within the Prism.",
+          "LocalizedString": "Gain Bonuses Based on Color of Fragments within the Prism."
+        }
+      },
+      "ArtfulDodger": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "543D6FBA43B930E1C3A2DDB4855A4778",
+          "SourceString": "Artful Dodger",
+          "LocalizedString": "Artful Dodger"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_ArtfulDodger.Action_Segment_ArtfulDodger_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "AC3E17B34EA5A2436CBDF4943AB95A64",
+          "SourceString": "All Dodges trigger Perfect Dodge Mechanics. Cooldown of 3 seconds.",
+          "LocalizedString": "All Dodges trigger Perfect Dodge Mechanics. Cooldown of 3 seconds."
+        }
+      },
+      "PowerFantasy": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "2045C1604F412DC068077CB75209C536",
+          "SourceString": "Power Fantasy",
+          "LocalizedString": "Power Fantasy"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_PowerFantasy.Action_Segment_PowerFantasy_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "9BFB6B924E7969C5B38A0CA7709CB395",
+          "SourceString": "Increases Explosive Critical Chance and Critical Damage by 30%.",
+          "LocalizedString": "Increases Explosive Critical Chance and Critical Damage by 30%."
+        }
+      },
+      "SizeMatters": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "09038E0344ABEF094FE6B2BBF778AA10",
+          "SourceString": "Size Matters",
+          "LocalizedString": "Size Matters"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/PrismSegment_SizeMatters.PrismSegment_SizeMatters_C",
+          "SubPathString": ""
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "F2E123984DE2E5E420B681B5A5BDA4EA",
+          "SourceString": "Doubles Magazine Size for non Single Shot Weapons.",
+          "LocalizedString": "Doubles Magazine Size for non Single Shot Weapons."
+        }
+      },
+      "Bodyguard": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "DAADDCEB44D85A3D034C439566C104CC",
+          "SourceString": "Bodyguard",
+          "LocalizedString": "Bodyguard"
+        },
+        "ClassObject": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "Rarity": 4,
+        "Category": "EPrismSegmentCategory::None",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismLegendarySegments/Action_Segment_Bodyguard.Action_Segment_Bodyguard_C",
+          "SubPathString": ""
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "21D582074A1B0C4B2D0BCC887E3547AA",
+          "SourceString": "Cannot be One-Shot while at Max Health Capacity.",
+          "LocalizedString": "Cannot be One-Shot while at Max Health Capacity."
+        }
+      }
+    }
+  }
+]

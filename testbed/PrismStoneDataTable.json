@@ -1,0 +1,1920 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "PrismStoneDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'PrismStoneDataTableRow'",
+        "ObjectPath": "/Script/Remnant"
+      }
+    },
+    "Rows": {
+      "CriticalDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "33F78749476A0FAF851962A83A8636CB",
+          "SourceString": "Critical Damage",
+          "LocalizedString": "Critical Damage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_CriticalDamage.RelicFragment_CriticalDamage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "BE454F194355B47997EA49BB04D57C2D",
+          "SourceString": "Increases Critical Damage",
+          "LocalizedString": "Increases Critical Damage"
+        }
+      },
+      "WeakspotDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "DBE378B6451D35978287ECAAEBF247D6",
+          "SourceString": "Weakspot Damage",
+          "LocalizedString": "Weakspot Damage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_WeakspotDamage.RelicFragment_WeakspotDamage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "2E4733B64F729FD82B32009778144F18",
+          "SourceString": "Increases Weakspot Damage",
+          "LocalizedString": "Increases Weakspot Damage"
+        }
+      },
+      "RangedDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "4AE81659442508833B986A91B940258F",
+          "SourceString": "Ranged Damage",
+          "LocalizedString": "Ranged Damage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Power/RelicFragment_RangedDamage.RelicFragment_RangedDamage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "BB3A954F478B176208688C9D3482B8F2",
+          "SourceString": "Increases Ranged Damage",
+          "LocalizedString": "Increases Ranged Damage"
+        }
+      },
+      "MeleeDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "81442E8C4CCFE69B773916BC1B734DD9",
+          "SourceString": "Melee Damage",
+          "LocalizedString": "Melee Damage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Melee/Power/RelicFragment_MeleeDamage.RelicFragment_MeleeDamage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "17013B934718E4E4B88745B7F063C47A",
+          "SourceString": "Increases Melee Damage",
+          "LocalizedString": "Increases Melee Damage"
+        }
+      },
+      "ModDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "1BBFFC3247B88458F8A214940E636E6D",
+          "SourceString": "Mod Damage",
+          "LocalizedString": "Mod Damage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Power/RelicFragment_ModDamage.RelicFragment_ModDamage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "8D4BA1734E10DD052EAC97A45CE7B9D3",
+          "SourceString": "Increases Mod Damage",
+          "LocalizedString": "Increases Mod Damage"
+        }
+      },
+      "SkillDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "380A1E964C284DF4BC73FCB3D25F8C49",
+          "SourceString": "Skill Damage",
+          "LocalizedString": "Skill Damage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Power/RelicFragment_SkillDamage.RelicFragment_SkillDamage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "61BF6BF249AF71F6C2EF66A261BA4F97",
+          "SourceString": "Increases Skill Damage",
+          "LocalizedString": "Increases Skill Damage"
+        }
+      },
+      "ExplosiveDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "DF9F0682446D403B0608A69E1E6A05FB",
+          "SourceString": "Explosive Damage",
+          "LocalizedString": "Explosive Damage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_ExplosiveDamage.RelicFragment_ExplosiveDamage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "8A10354B45BC08EFD0AF9381DFD3E80F",
+          "SourceString": "Increases Explosive Damage",
+          "LocalizedString": "Increases Explosive Damage"
+        }
+      },
+      "StatusDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "2BE6D33C4FBB6004D8788FAF0DA76DD0",
+          "SourceString": "Status Effect Damage",
+          "LocalizedString": "Status Effect Damage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_StatusDamage.RelicFragment_StatusDamage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "4E7FA8AC40096AFEE502BFB81B3161E6",
+          "SourceString": "Increases Status Damage",
+          "LocalizedString": "Increases Status Damage"
+        }
+      },
+      "RangedCriticalChance": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F7FF9AD3442F73D052D5FC8E059AC35B",
+          "SourceString": "Ranged Critical Chance",
+          "LocalizedString": "Ranged Critical Chance"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Power/CritChance/RelicFragment_RangedCritChance.RelicFragment_RangedCritChance_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "4DA056E0412D0415261DA8841BD7F218",
+          "SourceString": "Increases Ranged Critical Chance",
+          "LocalizedString": "Increases Ranged Critical Chance"
+        }
+      },
+      "MeleeCriticalChance": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "341CF6674A4372220A5269B3B721A74F",
+          "SourceString": "Melee Critical Chance",
+          "LocalizedString": "Melee Critical Chance"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Melee/Power/CritChance/RelicFragment_MeleeCritChance.RelicFragment_MeleeCritChance_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "EF822C67429C72794384989F2E651453",
+          "SourceString": "Increases Melee Critical Chance",
+          "LocalizedString": "Increases Melee Critical Chance"
+        }
+      },
+      "ModCriticalChance": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "D07AA48A49F1384296F9C89F4C55DB0A",
+          "SourceString": "Mod Critical Chance",
+          "LocalizedString": "Mod Critical Chance"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_ModCritChance.RelicFragment_ModCritChance_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "AE15A75B4DE7C609939FDB991875DE0B",
+          "SourceString": "Increases Mod Critical Chance",
+          "LocalizedString": "Increases Mod Critical Chance"
+        }
+      },
+      "SkillCriticalChance": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "478723694BDCCA5807D62A82140017D0",
+          "SourceString": "Skill Critical Chance",
+          "LocalizedString": "Skill Critical Chance"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_SkillCritChance.RelicFragment_SkillCritChance_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "33E757DB4CA2608BD74A3D9D29C4EB3D",
+          "SourceString": "Increases Skill Critical Chance",
+          "LocalizedString": "Increases Skill Critical Chance"
+        }
+      },
+      "RangedFireRate": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E9826903489D5B968A733F9FB72EAD19",
+          "SourceString": "Fire Rate",
+          "LocalizedString": "Fire Rate"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Power/RelicFragment_RangedFireRate.RelicFragment_RangedFireRate_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "B481109D41A05C156150BB9DBBB0E8B6",
+          "SourceString": "Increases Ranged Fire Rate",
+          "LocalizedString": "Increases Ranged Fire Rate"
+        }
+      },
+      "FirearmChargeSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "6BC36EFF4214E69D67A178B6D6A55B94",
+          "SourceString": "Firearm Charge Time",
+          "LocalizedString": "Firearm Charge Time"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_RangedChargeSpeed.RelicFragment_RangedChargeSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "8B2155EF4816B341796835819AF1F104",
+          "SourceString": "Increases Firearm Charge Speed",
+          "LocalizedString": "Increases Firearm Charge Speed"
+        }
+      },
+      "MeleeAttackSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "DCBA90004DD8862D44C0E387F254A421",
+          "SourceString": "Total Melee Speed",
+          "LocalizedString": "Total Melee Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Melee/Power/RelicFragment_MeleeAttackSpeed.RelicFragment_MeleeAttackSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Red",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "496FFAD04ABA9CFF9ECB1F8F0FB05600",
+          "SourceString": "Increases Melee Attack Speed",
+          "LocalizedString": "Increases Melee Attack Speed"
+        }
+      },
+      "HealthPercent": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "49D7F486423CFEB1034A0B95FA2924DB",
+          "SourceString": "Health Bonus",
+          "LocalizedString": "Health Bonus"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_Health.RelicFragment_Health_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "3659F2424D3762CADD1A139C389CD8A5",
+          "SourceString": "Increases Health (Percent)",
+          "LocalizedString": "Increases Health (Percent)"
+        }
+      },
+      "HealthFlat": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "BC11C18F44E24AE5D91498AE29D1E720",
+          "SourceString": "Health",
+          "LocalizedString": "Health"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_HealthFlat.RelicFragment_HealthFlat_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "258322F9425DF91B57045AAE7034A206",
+          "SourceString": "Increases Health (Flat)",
+          "LocalizedString": "Increases Health (Flat)"
+        }
+      },
+      "HealthRegen": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "8B5A0CE541F633462160A0A42910FEA0",
+          "SourceString": "Health Regeneration",
+          "LocalizedString": "Health Regeneration"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_HealthRegen.RelicFragment_HealthRegen_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "BE5E14574EEBAA82BE72A1AA7622A337",
+          "SourceString": "Increases Health Regeneration",
+          "LocalizedString": "Increases Health Regeneration"
+        }
+      },
+      "HealingEfficacy": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B47DB57C4DD9DBB4F6EB9A96BD9C3AE2",
+          "SourceString": "Healing Effectiveness",
+          "LocalizedString": "Healing Effectiveness"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_HealingEffectiveness.RelicFragment_HealingEffectiveness_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "AE3B895C4B2DF5C23767F992FEBD959A",
+          "SourceString": "Increases Healing Effectiveness",
+          "LocalizedString": "Increases Healing Effectiveness"
+        }
+      },
+      "GreyHealthRate": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "58670C964A069AE18578A28C0BDA5E2A",
+          "SourceString": "Grey Health Conversion",
+          "LocalizedString": "Grey Health Conversion"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_GreyHealthRate.RelicFragment_GreyHealthRate_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "D9AF2158459AECCFB35B06858FA1B6D6",
+          "SourceString": "Increases Grey Health Conversion",
+          "LocalizedString": "Increases Grey Health Conversion"
+        }
+      },
+      "StaminaPercent": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "6B3B0E0641546B10D5EEFE81EF6245A2",
+          "SourceString": "Stamina Bonus",
+          "LocalizedString": "Stamina Bonus"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_Stamina.RelicFragment_Stamina_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "FB38BECB43B21C30C0D0DEB40F6A3696",
+          "SourceString": "Increases Stamina (Percent)",
+          "LocalizedString": "Increases Stamina (Percent)"
+        }
+      },
+      "StaminaFlat": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "EEE80037481CC2DC8C5335BF244CE9AA",
+          "SourceString": "Stamina",
+          "LocalizedString": "Stamina"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_StaminaFlat.RelicFragment_StaminaFlat_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "D58C882B452404056C15449AD97A7C83",
+          "SourceString": "Increases Stamina (Flat)",
+          "LocalizedString": "Increases Stamina (Flat)"
+        }
+      },
+      "DamageReduction": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A5A4EB1F4E7C3C07A8CFB295FBA9103E",
+          "SourceString": "Damage Reduction",
+          "LocalizedString": "Damage Reduction"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_DamageReduction.RelicFragment_DamageReduction_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "D57205E74A16F8651E4C5B8E07C4E37E",
+          "SourceString": "Increases Damage Reduction",
+          "LocalizedString": "Increases Damage Reduction"
+        }
+      },
+      "ArmorPercent": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E9CF5241454D2E46410BA192289A6420",
+          "SourceString": "Armor Bonus",
+          "LocalizedString": "Armor Bonus"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_ArmorEffectiveness.RelicFragment_ArmorEffectiveness_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "1E8B41724016B7329592F98BFE9A70FF",
+          "SourceString": "Increases Armor (Percent)",
+          "LocalizedString": "Increases Armor (Percent)"
+        }
+      },
+      "ArmorFlat": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B23523004626157BC0748DBD1F494CB0",
+          "SourceString": "Armor",
+          "LocalizedString": "Armor"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_ArmorFlat.RelicFragment_ArmorFlat_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "3820F20E4F8A979922DBB9AD4C0EB237",
+          "SourceString": "Increases Armor (Flat)",
+          "LocalizedString": "Increases Armor (Flat)"
+        }
+      },
+      "ShieldPercent": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "33807BD74671E7C6EACB4DA48916B068",
+          "SourceString": "Shield Amount",
+          "LocalizedString": "Shield Amount"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_ShieldEffectiveness.RelicFragment_ShieldEffectiveness_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "D5DD6A5F414A4230110E98A5B82B13D2",
+          "SourceString": "Increases Shield Effectiveness",
+          "LocalizedString": "Increases Shield Effectiveness"
+        }
+      },
+      "ShieldDuration": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "14D60F7B498E8D7C4AC01682EFE69F29",
+          "SourceString": "Shield Duration",
+          "LocalizedString": "Shield Duration"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_ShieldDuration.RelicFragment_ShieldDuration_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "D5DD6A5F414A4230110E98A5B82B13D2",
+          "SourceString": "Increases Shield Effectiveness",
+          "LocalizedString": "Increases Shield Effectiveness"
+        }
+      },
+      "EvadeSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "780D401F4EF2ADCEC29F48B6EF54CB1D",
+          "SourceString": "Evade Speed",
+          "LocalizedString": "Evade Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_EvadeSpeed.RelicFragment_EvadeSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "6E11B1954AC2715119F8A09A6A075C8C",
+          "SourceString": "Increases Evade Speed",
+          "LocalizedString": "Increases Evade Speed"
+        }
+      },
+      "EvadeDistance": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F8FED553491CE3983D50EA85D053A9D9",
+          "SourceString": "Evade Distance",
+          "LocalizedString": "Evade Distance"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_EvadeDistance.RelicFragment_EvadeDistance_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "6E11B1954AC2715119F8A09A6A075C8C",
+          "SourceString": "Increases Evade Speed",
+          "LocalizedString": "Increases Evade Speed"
+        }
+      },
+      "ReviveSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "81C90712413D0DBA96C53F849315771A",
+          "SourceString": "Revive Speed",
+          "LocalizedString": "Revive Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_ReviveSpeed.RelicFragment_ReviveSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Blue",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "1E1139D342AA1EAFB76CB5AABDF54237",
+          "SourceString": "Increases Revive Speed",
+          "LocalizedString": "Increases Revive Speed"
+        }
+      },
+      "MovementSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "508CF3924B2768D8C46EC29B18CBE587",
+          "SourceString": "Movement Speed",
+          "LocalizedString": "Movement Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_MovementSpeed.RelicFragment_MovementSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "E8C21109442EE7D4F0AF0798FD8403D8",
+          "SourceString": "Increases Movement Speed",
+          "LocalizedString": "Increases Movement Speed"
+        }
+      },
+      "WeaponSpread": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A17DA26E40FBBAB774D8E280CDADC652",
+          "SourceString": "Weapon Spread",
+          "LocalizedString": "Weapon Spread"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Discipline/RelicFragment_WeaponSpread.RelicFragment_WeaponSpread_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "C4DA2C054E2389363F155584B874275A",
+          "SourceString": "Reduces Weapon Spread",
+          "LocalizedString": "Reduces Weapon Spread"
+        }
+      },
+      "IdealRange": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "B4EA164C417948D049C8858E815F2958",
+          "SourceString": "Weapon Ideal Range",
+          "LocalizedString": "Weapon Ideal Range"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_IdealRange.RelicFragment_IdealRange_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "86106C624418D3BF5CFEA99BE2F0B48D",
+          "SourceString": "Increases Firearm Range",
+          "LocalizedString": "Increases Firearm Range"
+        }
+      },
+      "ReloadSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "BB106B0B4C3A51E25562BB9BFF194240",
+          "SourceString": "Reload Speed",
+          "LocalizedString": "Reload Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_ReloadSpeed.RelicFragment_ReloadSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "66F5F59849079F843BA9F9A0D50C80DA",
+          "SourceString": "Increases Reload Speed",
+          "LocalizedString": "Increases Reload Speed"
+        }
+      },
+      "SwapSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E2C5C88B4EB039AD0D0D6783AE0F8BA9",
+          "SourceString": "Firearm Swap Speed",
+          "LocalizedString": "Firearm Swap Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Discipline/RelicFragment_WeaponSwapSpeed.RelicFragment_WeaponSwapSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "431B203C4C9F3DF26780868F146BCD3D",
+          "SourceString": "Increases Weapon Swap Speed",
+          "LocalizedString": "Increases Weapon Swap Speed"
+        }
+      },
+      "AmmoReserves": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A686DD314204778B981094879604B264",
+          "SourceString": "Ammo Reserves",
+          "LocalizedString": "Ammo Reserves"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Discipline/RelicFragment_AmmoReserves.RelicFragment_AmmoReserves_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "D92BE6314D681AF0795CE0A9B2D4D728",
+          "SourceString": "Increases Ammo Reserves",
+          "LocalizedString": "Increases Ammo Reserves"
+        }
+      },
+      "ProjectileSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9CBE197341001CE663EFE2B563BBF64E",
+          "SourceString": "Projectile Speed",
+          "LocalizedString": "Projectile Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_ProjectileSpeed.RelicFragment_ProjectileSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "C4FADEDE4CA37E6C4A0D7B88D7CF136C",
+          "SourceString": "Increases Relic Duration",
+          "LocalizedString": "Increases Relic Duration"
+        }
+      },
+      "HeatReduction": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F99BB2BF496E69D7693D6CB1B38A4CD8",
+          "SourceString": "Heat Reduction",
+          "LocalizedString": "Heat Reduction"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_HeatGenReduction.RelicFragment_HeatGenReduction_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "0582B46946294BBEB3D84D947DC17E49",
+          "SourceString": "Reduces Heat Generation",
+          "LocalizedString": "Reduces Heat Generation"
+        }
+      },
+      "CastSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "C647D3774BBF82303C27D0806153B318",
+          "SourceString": "Cast Speed",
+          "LocalizedString": "Cast Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Discipline/RelicFragment_CastSpeed.RelicFragment_CastSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "6892D3114C81AEB4B5088EBE4EC6AB80",
+          "SourceString": "Increases Casting Speed",
+          "LocalizedString": "Increases Casting Speed"
+        }
+      },
+      "ModGeneration": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A447DBFB4AA1A6531F19DCB2794C150B",
+          "SourceString": "Mod Power Generation",
+          "LocalizedString": "Mod Power Generation"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/_Core/Shared/RelicFragment_ModGeneration.RelicFragment_ModGeneration_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "E96BE1FC450F875BC0E32DB1EF56FCD3",
+          "SourceString": "Increases Mod Generation",
+          "LocalizedString": "Increases Mod Generation"
+        }
+      },
+      "ModDuration": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9DE4997949EB13A7A5EF6FBD67EE722C",
+          "SourceString": "Mod Duration",
+          "LocalizedString": "Mod Duration"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_ModDuration.RelicFragment_ModDuration_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "E7B61AEF4A3D6F3911D6A9832FB0FE33",
+          "SourceString": "Increases Mod Duration",
+          "LocalizedString": "Increases Mod Duration"
+        }
+      },
+      "SkillCooldown": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "603D29EE4767DEF16B2C4FACC9833B7A",
+          "SourceString": "Skill Cooldown",
+          "LocalizedString": "Skill Cooldown"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_SkillCooldown.RelicFragment_SkillCooldown_C",
+          "SubPathString": ""
+        },
+        "Rarity": 2,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "061912F74C3E995FF39B03AA6AD5341A",
+          "SourceString": "Reduces Skill Cooldown",
+          "LocalizedString": "Reduces Skill Cooldown"
+        }
+      },
+      "SkillDuration": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "EE4BC3B74BC23FFB6C106A95846BBAA4",
+          "SourceString": "Skill Duration",
+          "LocalizedString": "Skill Duration"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Intellect/RelicFragment_SkillDuration.RelicFragment_SkillDuration_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "0C33D9564B5A60A187249880A098A752",
+          "SourceString": "Increases Skill Duration",
+          "LocalizedString": "Increases Skill Duration"
+        }
+      },
+      "ConsumableSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9978E3E44B9D2D988EC725B35B9F5C67",
+          "SourceString": "Use Speed",
+          "LocalizedString": "Use Speed"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Discipline/RelicFragment_ConsumableSpeed.RelicFragment_ConsumableSpeed_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "DD3CE23944B44E84D88F5DB540E06298",
+          "SourceString": "Increases Relic / Consumable Speed",
+          "LocalizedString": "Increases Relic / Consumable Speed"
+        }
+      },
+      "ConsumableDuration": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "482CE3D249956497F6E43B81963BDCCE",
+          "SourceString": "Consumable Duration",
+          "LocalizedString": "Consumable Duration"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/World_Base/Items/Gems/Ranged/Discipline/RelicFragment_ConsumableDuration.RelicFragment_ConsumableDuration_C",
+          "SubPathString": ""
+        },
+        "Rarity": 1,
+        "Category": "EPrismSegmentCategory::Yellow",
+        "ComboSegment": false,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": null,
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": false,
+        "Description": {
+          "Namespace": "",
+          "Key": "FB0658F14F8DF8EE654E63B879DBE3C9",
+          "SourceString": "Increases Consumable Duration",
+          "LocalizedString": "Increases Consumable Duration"
+        }
+      },
+      "WeakspotDamageCriticalDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "DE625E2641E03A03EAC6CC824896CD0E",
+          "SourceString": "Meta",
+          "LocalizedString": "Meta"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Meta.PrismSegment_Meta_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedRed",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Meta'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Meta.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ModCriticalSkillCritical": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "FA59A99B4EBECD0F8D2343A820A46DC7",
+          "SourceString": "Wizard",
+          "LocalizedString": "Wizard"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Wizard.PrismSegment_Wizard_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedRed",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Wizard'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Wizard.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "MeleeDamageMeleeSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "991CEA6648C2A35C5F704799BD65BF65",
+          "SourceString": "Warrior",
+          "LocalizedString": "Warrior"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Warrior.PrismSegment_Warrior_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedRed",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Warrior'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Warrior.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "MeleeCriticalEvadeSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3A8763164299AF0C37F7A4B2062E4CF8",
+          "SourceString": "Rogue",
+          "LocalizedString": "Rogue"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Rogue.PrismSegment_Rogue_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedBlue",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Rogue'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Rogue.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "MeleeSpeedStaminaFlat": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9C6EFD094819247D4FCA3F959EE0E899",
+          "SourceString": "Pugilist",
+          "LocalizedString": "Pugilist"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Pugilist.PrismSegment_Pugilist_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedBlue",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Pugilist'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Pugilist.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "FireRateReloadSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3DAFB3484807A3AFD10DB588CD1ABC1A",
+          "SourceString": "Gunfighter",
+          "LocalizedString": "Gunfighter"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Gunfighter.PrismSegment_Gunfighter_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Gunfighter'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Gunfighter.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RangedDamageIdealRange": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "080DBF354866C6A4DDF5B1AD936098B9",
+          "SourceString": "Sniper",
+          "LocalizedString": "Sniper"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Sniper.PrismSegment_Sniper_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Sniper'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Sniper.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RangedCriticalAmmoReserves": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "69FC3A3246F3C847FA6C62B4994EDC0E",
+          "SourceString": "Munitions",
+          "LocalizedString": "Munitions"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Munitions.PrismSegment_Munitions_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Munitions'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Munitions.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ModDamageModGeneration": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F9D8FF164FA7344B8667268DE7274959",
+          "SourceString": "Mage",
+          "LocalizedString": "Mage"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Mage.PrismSegment_Mage_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Mage'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Mage.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "HealthPercentStaminaPercent": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "88D29057429E37BEC80711AF46261436",
+          "SourceString": "Hulk",
+          "LocalizedString": "Hulk"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Hulk.PrismSegment_Hulk_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueBlue",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Hulk'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Hulk.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "DamageReductionArmorPercent": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "E75262DB4294A3CA7887F98914E2A88D",
+          "SourceString": "Tank",
+          "LocalizedString": "Tank"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Tank.PrismSegment_Tank_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueBlue",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Tank'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Tank.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ShieldEfficacyArmorFlat": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "07B70E51408AFE839B6CE487ACAA22AD",
+          "SourceString": "Protected",
+          "LocalizedString": "Protected"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Protected.PrismSegment_Protected_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueBlue",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Protected'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Protected.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "HealthPercentGreyHealthRate": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "F5A189E0443133320283BFB2F33A5D9D",
+          "SourceString": "Threshold",
+          "LocalizedString": "Threshold"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Threshold.PrismSegment_Threshold_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueBlue",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Threshold'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Threshold.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "HealthRegenSkillCooldown": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "37F073E44A0460E695A2B6B9CBD16129",
+          "SourceString": "Revitalize",
+          "LocalizedString": "Revitalize"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Revitalize.PrismSegment_Revitalize_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Revitalize'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Revitalize.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "MovementSpeedEvadeSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A8F727C244A4876E2046578B4DE9F7A7",
+          "SourceString": "Athletic",
+          "LocalizedString": "Athletic"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Athletic.PrismSegment_Athletic_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Athletic'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Athletic.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "HealingEfficacyUseSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "539B03C74BAADA2AA890C2AF049E0A68",
+          "SourceString": "Cleric",
+          "LocalizedString": "Cleric"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Cleric.PrismSegment_Cleric_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Cleric'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Cleric.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ModDurationSkillDuration": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9C99513A40D2FD83B892C785B1E051C6",
+          "SourceString": "Longevity",
+          "LocalizedString": "Longevity"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Longevity.PrismSegment_Longevity_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::YellowYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Longevity'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Longevity.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "WeaponSpreadSwapSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "0731026A4238F19FD41633AAE630EEF5",
+          "SourceString": "Grip",
+          "LocalizedString": "Grip"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Grip.PrismSegment_Grip_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::YellowYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Grip'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Grip.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "CastSpeedUseSpeed": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "9C4F685D4D5EF9E8767D8A9B47054FC4",
+          "SourceString": "Flash",
+          "LocalizedString": "Flash"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Flash.PrismSegment_Flash_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::YellowYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Flash'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Flash.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "RangedDamageMeleeDamage": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "C1E79FF14CD9583D531E398E88C75952",
+          "SourceString": "Pirate",
+          "LocalizedString": "Pirate"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Pirate.PrismSegment_Pirate_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedRed",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Pirate'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Pirate.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ExplosiveDamageDamageReduction": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "8DC5635740AFB115904E809B1D06C4BF",
+          "SourceString": "Sapper",
+          "LocalizedString": "Sapper"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Sapper.PrismSegment_Sapper_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueBlue",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Sapper'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Sapper.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "FirearmChargeSpeedHeatReduction": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "3A127C644EBAF621CEBB0E843062CC3C",
+          "SourceString": "Capacitor",
+          "LocalizedString": "Capacitor"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Capacitor.PrismSegment_Capacitor_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::RedYellow",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Capacitor'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Capacitor.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      },
+      "ReviveSpeedHealingEfficacy": {
+        "DisplayName": {
+          "Namespace": "",
+          "Key": "A53C92EF4F2E70427D93E2A921F1334C",
+          "SourceString": "Selfless",
+          "LocalizedString": "Selfless"
+        },
+        "ClassObject": {
+          "AssetPathName": "/Game/Events/Paragon/PrismStone/PrismComboSegments/PrismSegment_Selfless.PrismSegment_Selfless_C",
+          "SubPathString": ""
+        },
+        "Rarity": 3,
+        "Category": "EPrismSegmentCategory::BlueBlue",
+        "ComboSegment": true,
+        "ActionClass": {
+          "AssetPathName": "None",
+          "SubPathString": null
+        },
+        "PrismRequirementsToRoll": {
+          "ObjectName": "ConditionList'PrismConditions_Selfless'",
+          "ObjectPath": "/Game/Events/Paragon/PrismStone/RestrictionConditions/PrismConditions_Selfless.0"
+        },
+        "CharacterRequirementsToRoll": null,
+        "RowOverridesRequirementEntries": true,
+        "Description": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]

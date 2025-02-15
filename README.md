@@ -1,6 +1,6 @@
 # Remnant 2 Prism Editor
 
-This is a save parser for Remnant 2 attached to a WPF user interface that allows the user to make quick edits to the prisms within. Current version: v0.1.0
+This is a save parser for Remnant 2 attached to a WPF user interface that allows the user to make quick edits to the prisms within. Current version: v1.0.0
 
 Preceding work for the Remnant 2 save parser is done by Andrew Savinykh at <https://github.com/AndrewSav/lib.remnant2.saves>, as well as his credited individuals [t1nky](https://github.com/t1nky/remnant-item-finder) and [crackedmind](https://github.com/crackedmind).
 
@@ -16,10 +16,13 @@ Current features:
 - View prism details: level, internal level, experience, RNG seed, pending choice, prism segments, and fed fragments
 - Reroll one or all prisms' RNG seed, or just reset their pending choice
 - Edit remaining experience and fed fragment strength
+- Edit segments and fed fragments
 
 Future features
-- More options for saving and loading files
-- Edit segments and fed fragments
+- Save and load from file dialog
+- Bugfixes
+
+As of now, I consider all major features complete. Unless something changes, future updates will only contain bugfixes and minor features.
 
 ## How to run
 
@@ -46,6 +49,9 @@ Those looking to fork the project can do so at will for non-commercial purposes,
 Visit the [Remnant Toolkit](https://www.remnant2toolkit.com) and [its discord](https://discord.gg/kgVaU3zAQ7) for more helpful tools and discussion relating to Remnant 2.
 
 ## Latest changes
+
+### v1.0.0
+- Added risky tab with ability to edit segments
 
 ### v0.2.0
 - Added unsafe tab with experience and fed fragments function

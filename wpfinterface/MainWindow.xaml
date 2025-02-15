@@ -302,15 +302,37 @@
                     </Grid>
                 </Grid>
             </TabItem>
-            <TabItem Name="TabRisky" Header="Risky">
+            <TabItem Name="TabRisky" Header="Risky" Selector.Selected="TabRisky_Selected">
                 <Grid Margin="10">
                     <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="20" />
                         <ColumnDefinition Width="auto" />
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto" />
+                        <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Label>Work in progress</Label>
+                    <Label Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0">Edit segments here. Be careful to create only "legal" prisms.</Label>
+                    <Grid x:Name="SegmentGrid" Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                    </Grid>
                 </Grid>
             </TabItem>
         </TabControl>

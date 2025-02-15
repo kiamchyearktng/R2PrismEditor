@@ -4,6 +4,9 @@ using lib.remnant2.saves.Model.Parts;
 using lib.remnant2.saves.Model.Properties;
 using lib.remnant2.saves.Navigation;
 using System.IO;
+using System.Text.Json;
+using System.Text.Json.Nodes;
+using System.Text.Json.Serialization;
 
 namespace prismeditor.scripts
 {
@@ -136,6 +139,48 @@ namespace prismeditor.scripts
             //Console.WriteLine(original.SequenceEqual(roundTripped)
             //    ? "Written and read data is the same"
             //    : "Written and read data is different");
+        }
+
+        internal static void GetNamesTable()
+        {
+            string path = Path.Combine(Utils.GetSteamSavePath(), "profile.sav");
+            Console.WriteLine($"Parsing {path}...");
+            SaveFile sf = SaveFile.Read(path);
+
+            var firstChar = sf.SaveData.Objects.First(x => x.Name == "SavedCharacter");
+            var firstCharData = firstChar.Properties!["CharacterData"].Value as StructProperty;
+            var firstCharNamesTable = (firstCharData!.Value as SaveData)!.NamesTable;
+            
+            foreach ( var firstCharName in firstCharNamesTable)
+            {
+                Console.WriteLine(firstCharName);
+            }
+            ;
+        }
+
+        internal static void ReadDataTable()
+        {
+            using FileStream stream = File.OpenRead("PrismStoneDataTable.json");
+            var jsondata = JsonSerializer.Deserialize<List<RootDataTable>>(stream)![0];
+
+            var segments = jsondata.Rows!.Where(x => x.Value is JsonObject y && y["PrismRequirementsToRoll"] == null).Select(x => x.Key).ToList();
+            var segmentsstring = $"[{string.Join(", ", segments.Select(x => $"\"{x}\""))}]";
+            Console.WriteLine(segmentsstring + "\n");
+
+            var fusions = jsondata.Rows!.Where(x => x.Value is JsonObject y && y["PrismRequirementsToRoll"] != null).Select(x => x.Key).ToList();
+            var fusionsstring = $"[{string.Join(", ", fusions.Select(x => $"\"{x}\""))}]";
+            Console.WriteLine(fusionsstring + "\n");
+
+
+            using FileStream stream2 = File.OpenRead("PrismStoneMythicDataTable.json");
+            var jsondata2 = JsonSerializer.Deserialize<List<RootDataTable>>(stream2)![0];
+
+            var legs = jsondata2.Rows!.Select(x => x.Key).ToList();
+            var legsstring = $"[{string.Join(", ", legs.Select(x => $"\"{x}\""))}]";
+            Console.WriteLine(legsstring + "\n");
+
+            ;
+            ;
         }
     }
 }
